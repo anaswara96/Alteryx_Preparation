@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -25,23 +25,23 @@ Query=`ted_main$`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="comments" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="Double" />
-            <Field name="description" size="769" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_WString" />
-            <Field name="duration" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="Double" />
-            <Field name="event" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_String" />
-            <Field name="film_date" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="Double" />
-            <Field name="languages" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="Double" />
-            <Field name="main_speaker" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_WString" />
-            <Field name="name" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_WString" />
-            <Field name="num_speaker" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="Double" />
-            <Field name="published_date" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="Double" />
-            <Field name="ratings" size="668" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_String" />
-            <Field name="related_talks" size="2008" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_WString" />
-            <Field name="speaker_occupation" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_WString" />
-            <Field name="tags" size="447" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_String" />
-            <Field name="title" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_WString" />
-            <Field name="url" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="V_String" />
-            <Field name="views" source="File: C:\Users\tnakh\OneDrive\Desktop\Alteryx\Scenario\2.xlsx|||`ted_main$`" type="Double" />
+            <Field name="comments" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="Double" />
+            <Field name="description" size="769" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_WString" />
+            <Field name="duration" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="Double" />
+            <Field name="event" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_String" />
+            <Field name="film_date" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="Double" />
+            <Field name="languages" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="Double" />
+            <Field name="main_speaker" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_WString" />
+            <Field name="name" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_WString" />
+            <Field name="num_speaker" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="Double" />
+            <Field name="published_date" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="Double" />
+            <Field name="ratings" size="668" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_String" />
+            <Field name="related_talks" size="2008" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_WString" />
+            <Field name="speaker_occupation" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_WString" />
+            <Field name="tags" size="447" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_String" />
+            <Field name="title" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_WString" />
+            <Field name="url" size="255" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="V_String" />
+            <Field name="views" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\2.xlsx|||`ted_main$`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -115,7 +115,7 @@ Month_Name =...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_9396_5bfe013948474f449af0aa259f559232_\Engine_9396_03a3f83964068c48b2e6d394a0923432~.yxdb</TempFile>
+          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_12048_f4943122fff9e54fbc0a7eb4ea3473d9_\Engine_12048_99d41b1b71c760479388d126c8005b1d~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -248,7 +248,7 @@ Month_Name =...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_9396_5bfe013948474f449af0aa259f559232_\Engine_9396_879b8886f28a264f92ed88c09a5b5b02~.yxdb</TempFile>
+          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_12048_f4943122fff9e54fbc0a7eb4ea3473d9_\Engine_12048_39a0438fea8688489a13b8d0c232b197~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -404,7 +404,7 @@ Month_Name =...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_9396_5bfe013948474f449af0aa259f559232_\Engine_9396_51cea99b82eb8649b9d88f8d4f1e7988~.yxdb</TempFile>
+          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_12048_f4943122fff9e54fbc0a7eb4ea3473d9_\Engine_12048_177baca6770d194e9f16bf3004eb203d~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -633,7 +633,7 @@ Month_Name =...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_9396_5bfe013948474f449af0aa259f559232_\Engine_9396_2ff9a5f56d456a44a7e8377d0c70aa06~.yxdb</TempFile>
+          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_12048_f4943122fff9e54fbc0a7eb4ea3473d9_\Engine_12048_8a904c1940fb824bb84fccb293db8b83~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>

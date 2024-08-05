@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>US_Accidents_March23.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Source" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Severity" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Start_Time" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="End_Time" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Start_Lat" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Start_Lng" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="End_Lat" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="End_Lng" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Distance(mi)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Street" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="County" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Zipcode" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Airport_Code" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Weather_Timestamp" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Temperature(F)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Wind_Chill(F)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Humidity(%)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Pressure(in)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Visibility(mi)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Wind_Direction" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Wind_Speed(mph)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Precipitation(in)" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Weather_Condition" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Amenity" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Bump" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Crossing" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Give_Way" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Junction" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="No_Exit" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Railway" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Roundabout" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Station" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Stop" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Traffic_Calming" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Traffic_Signal" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Turning_Loop" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Sunrise_Sunset" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Civil_Twilight" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Nautical_Twilight" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Astronomical_Twilight" size="254" source="File: C:\Users\tnakh\OneDrive\Desktop\Projects\Alteryx_Preparation\3\US_Accidents_March23.csv\US_Accidents_March23.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Timezone" action="GroupBy" rename="Timezone" />
+            <SummarizeField field="Timezone" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Timezone</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-08-04 20:13:22</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-08-04 20:13:22</StartDate>
+              <EndDate>2024-08-04 20:13:22</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Timezone])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="REGEX_Replace([Timezone], &quot;US/&quot;, &quot;&quot;)" field="Timezone" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Timezone = REGEX_Replace([Timezone], "US/", "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Timezone</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-08-04 20:56:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Central</Operand>
+              <StartDate>2024-08-04 20:56:11</StartDate>
+              <EndDate>2024-08-04 20:56:11</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Timezone] = "Central"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_5304_e843fa59f227cd46bdedbebc20fbf863_\Engine_5304_dc47004d67f4df46b76be511c7a63d92~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="618" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Timezone</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-08-04 20:58:36</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2024-08-04 20:58:36</StartDate>
+              <EndDate>2024-08-04 20:58:36</EndDate>
+              <Operand>Mountain</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Timezone] = "Mountain"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\tnakh\AppData\Local\Temp\Alteryx\Engine_5304_e843fa59f227cd46bdedbebc20fbf863_\Engine_5304_242eba553fdf704c935cfcf57d4bd2ba~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow8</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="67d91b3b-6ea4-4dc0-a8c3-0b7b3daeb9cb" />
+      <Telemetry>
+        <PreviousWorkflowId value="4ae93dae-8fef-4567-8e51-52ca8b56d771" />
+        <OriginWorkflowId value="4ae93dae-8fef-4567-8e51-52ca8b56d771" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
